@@ -121,7 +121,7 @@ twitter_url:
 facebook_url:
 behance_url:
 googleplus_url:
-dribble_url: 
+linkedin_url: 
 rss_url:
 ```
 
