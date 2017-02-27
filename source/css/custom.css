@@ -1,0 +1,24 @@
+/*  Custom CSS*/
+
+.post {
+	width: 60% !important;
+}
+
+#new-year {
+	width: 50% !important;
+}
+
+#newsletter {
+	background-color: white;
+}
+
+@media only screen and (max-width: 650px) {
+	#new-year {
+		width: 90% !important;
+	}
+	
+	.post {
+		width: 100% !important;
+	}
+
+}

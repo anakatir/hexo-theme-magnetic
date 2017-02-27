@@ -65,7 +65,7 @@
 
 /*  General CSS*/
 body{
-    background: #fff;
+    background: #d2d9df;
 }
 
 .wrapper{
@@ -206,7 +206,6 @@ h5, h6          { font-weight: bolder }
         background-position: 0 0;
     }
 
-
     header ul.social li a.google,
     header ul.social li a.google:hover{
         background-position: -31px 0;
@@ -222,10 +221,10 @@ h5, h6          { font-weight: bolder }
         background-position: -93px 0;
     }
 
-    header ul.social li a.dribble,
-    header ul.social li a.dribble:hover{
+    header ul.social li a.linkedin,
+    header ul.social li a.linkedin:hover{
         background-position: -124px 0;
-    }
+    }        
 
     header ul.social li a.rss,
     header ul.social li a.rss:hover{
@@ -287,7 +286,8 @@ h5, h6          { font-weight: bolder }
 /*  Home/portfolio  */
 .main .work{
     display: block;
-    width: 33.33333333333333%;
+    width: 33.3333%;
+    /*width: 25%;*/
     height: auto;
     float: left;
     position: relative;
@@ -484,7 +484,8 @@ h5, h6          { font-weight: bolder }
 
 .top .title{
     display: block;
-    width: 100%;color: #4b4848;
+    width: 100%;
+    color: #4b4848;
     font-family: "raleway-bold", arial;
     font-size: 26px;
     font-weight: bold;
@@ -510,13 +511,13 @@ h5, h6          { font-weight: bolder }
     margin-left: -46.36363636363637%;
 }
 
-.content{
+.content {
     color: #4b4848;
+    background-color: #e6e6e6;
     font-family: "raleway-regular", arial;
     font-size: 15px;
     line-height: 22px;
     padding: 60px 30px;
-    background: #fff;
     margin-bottom: 70px;
 
     -webkit-box-sizing: border-box;
@@ -552,6 +553,12 @@ h5, h6          { font-weight: bolder }
 }
 
 .content img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.content iframe{
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -622,6 +629,12 @@ h5, h6          { font-weight: bolder }
 }
 
 /*  Responsive code  */
+/*@media (max-width:1650px){
+     .main .work{
+        width: 33.33333%;
+    }
+}*/
+
 @media (max-width:1099px){
 
     header{
@@ -711,7 +724,6 @@ h5, h6          { font-weight: bolder }
         width: 100%;
     }
 }
-
 
 /*Quotes*/
 blockquote {
