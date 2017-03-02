@@ -4,6 +4,14 @@
 	width: 60% !important;
 }
 
+.post-small {
+	width: 40% !important;
+}
+
+.post-big{
+	width: 70% !important;
+}
+
 #new-year {
 	width: 50% !important;
 }
@@ -18,6 +26,14 @@
 	}
 	
 	.post {
+		width: 100% !important;
+	}
+
+	.post-small {
+		width: 100% !important;
+	}
+
+	.post-big {
 		width: 100% !important;
 	}
 
