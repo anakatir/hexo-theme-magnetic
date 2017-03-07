@@ -64,13 +64,18 @@
 
 
 /*  General CSS*/
-body{
+body {
     background: #d2d9df;
+    background-color: white;
 }
 
 .wrapper{
     width: 92.72727272727273%;
     margin: 0 auto;
+}
+
+header {
+    background-color: white;
 }
 
 header ul.social li a,
@@ -347,6 +352,10 @@ h5, h6          { font-weight: bolder }
 }
 
 .main .work a:hover .caption{
+    opacity: 1;
+}
+
+.main .work a:active .caption{
     opacity: 1;
 }
 
